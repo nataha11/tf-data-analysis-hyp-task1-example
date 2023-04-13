@@ -9,4 +9,4 @@ def solution(x_success: int,
              y_success: int, 
              y_cnt: int) -> bool:
     
-    return (x_success/x_cnt < y_success/y_cnt) # Ваш ответ, True или False
+    return (y_success/y_cnt - x_success/x_cnt < 0.1)
